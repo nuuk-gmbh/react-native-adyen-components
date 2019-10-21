@@ -41,3 +41,7 @@ import AdyenComponents from 'react-native-adyen-components';
 // TODO: What to do with the module?
 AdyenComponents;
 ```
+
+## Sponsoring
+
+Thanks to Neolotto / [Golotto](https://www.golotto.de/) for sponsoring this development.
