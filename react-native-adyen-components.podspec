@@ -1,26 +1,19 @@
-require "json"
+require 'json'
 
-package = JSON.parse(File.read(File.join(__dir__, "package.json")))
+package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name         = "react-native-adyen-components"
-  s.version      = package["version"]
-  s.summary      = package["description"]
-  s.description  = <<-DESC
-                  react-native-adyen-components
-                   DESC
-  s.homepage     = "https://github.com/github_account/react-native-adyen-components"
-  s.license      = "MIT"
-  # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.authors      = { "Your Name" => "yourname@email.com" }
-  s.platforms    = { :ios => "9.0", :tvos => "10.0" }
-  s.source       = { :git => "https://github.com/github_account/react-native-adyen-components.git", :tag => "#{s.version}" }
+  s.name         = package['name']
+  s.version      = package['version']
+  s.summary      = package['description']
+  s.license      = package['license']
 
-  s.source_files = "ios/**/*.{h,m,swift}"
-  s.requires_arc = true
+  s.authors      = package['author']
+  s.homepage     = package['homepage']
+  s.platform     = :ios, "9.0"
+  
+  s.source       = { :git => "https://github.com/nuuk-gmbh/react-native-adyen-components.git", :tag => "v#{s.version}" }
+  s.source_files  = "ios/**/*.{h,m}"
 
-  s.dependency "React"
-	
-  # s.dependency "..."
+  s.dependency 'React'
 end
-

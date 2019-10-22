@@ -1,8 +1,7 @@
 {
   "name": "react-native-adyen-components",
-  "title": "React Native Adyen Components",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "0.0.1",
+  "description": "Adyen payments support for iOS and Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,22 +11,19 @@
     "url": "git+https://github.com/github_account/react-native-adyen-components.git",
     "baseUrl": "https://github.com/github_account/react-native-adyen-components"
   },
-  "keywords": [
-    "react-native"
-  ],
+  "keywords": ["react-native"],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Jonathan Bones",
+    "email": "jb@nuuk.de"
   },
   "license": "MIT",
-  "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
-    "react-native": ">=0.59.0-rc.0 <1.0.x"
+    "react": "^16.0",
+    "react-native": ">=0.60 <0.62"
   },
   "devDependencies": {
-    "react": "^16.8.3",
-    "react-native": "^0.59.10"
+    "react": "16.9.0",
+    "react-native": "0.61.2"
   }
 }
