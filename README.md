@@ -1,47 +1,59 @@
-# react-native-adyen-components
+# React Native Adyen Components
 
-## Getting started
+[Adyen](https://docs.adyen.com/checkout) checkout components support for [iOS](https://docs.adyen.com/checkout/ios/components#supported-payment-methods) and [Android](https://docs.adyen.com/checkout/android/components#supported-payment-methods)
 
-`$ npm install react-native-adyen-components --save`
+## Getting started 🏃‍
 
-### Mostly automatic installation
+`$ yarn add react-native-adyen-components`
 
-`$ react-native link react-native-adyen-components`
+## v1.0 Roadmap 🛣
 
-### Manual installation
+Currently this module is a WIP and any further support would be greatly appreciated!
 
+---
 
-#### iOS
+Key:
 
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-adyen-components` and add `AdyenComponents.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libAdyenComponents.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
+✅ Supported
 
-#### Android
+🚧 In progress
 
-1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import com.reactlibrary.AdyenComponentsPackage;` to the imports at the top of the file
-  - Add `new AdyenComponentsPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-adyen-components'
-  	project(':react-native-adyen-components').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-adyen-components/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-adyen-components')
-  	```
+❌ Not yet supported (PRs welcome!)
 
+\- Not supported by Adyen Components API
 
-## Usage
-```javascript
-import AdyenComponents from 'react-native-adyen-components';
+| Adyen component                                             | iOS | Android |
+| ----------------------------------------------------------- | :-: | :-----: |
+| AfterPay                                                    |  -  |    -    |
+| Apple Pay                                                   | ❌  |    -    |
+| BCMC Mobile                                                 |  -  |   ❌    |
+| Boleto Bancário                                             |  -  |    -    |
+| Cards, including 3D Secure 1 and 3D Secure 2 authentication | 🚧  |   🚧    |
+| Stored card details                                         | 🚧  |   🚧    |
+| Dragonpay                                                   |  -  |    -    |
+| Dotpay                                                      | ❌  |   ❌    |
+| Entercash                                                   | ❌  |   ❌    |
+| EPS                                                         | ❌  |   ❌    |
+| giropay                                                     |  -  |    -    |
+| Google Pay                                                  |  -  |   ❌    |
+| iDEAL                                                       | ❌  |   ❌    |
+| Japanese convenience stores (Konbini)/7-Eleven Japan        |  -  |    -    |
+| Klarna                                                      | ❌  |   ❌    |
+| MOLPay                                                      | ❌  |   ❌    |
+| Open banking                                                | ❌  |   ❌    |
+| QiwiWallet                                                  |  -  |    -    |
+| Redirect payment methods (For example, UnionPay)            | ❌  |   ❌    |
+| SEPA Direct Debit                                           | ❌  |   ❌    |
+| WeChat Pay                                                  |  -  |    -    |
 
-// TODO: What to do with the module?
-AdyenComponents;
-```
+## Sponsors
 
-## Sponsoring
+Thank you to NeoLotto Deutschland GmbH ([GoLOTTO](https://www.golotto.de/)) for sponsoring this development. 🙏
 
-Thanks to Neolotto / [Golotto](https://www.golotto.de/) for sponsoring this development.
+<div style="display:inline-block;background-color:#fd0;border-radius:16px;padding:8px;justify-content:center;flex-direction:column">
+<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/0/website" target="_blank"><img src="https://www.golotto.de/assets/images/3.0/logo-black.png?pv=37339	"></a>
+</div>
+
+## License
+
+_MIT_
