@@ -1,4 +1,5 @@
 # React Native Adyen Components
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [Adyen](https://docs.adyen.com/checkout) checkout components support for [iOS](https://docs.adyen.com/checkout/ios/components#supported-payment-methods) and [Android](https://docs.adyen.com/checkout/android/components#supported-payment-methods)
@@ -51,10 +52,8 @@ Key:
 
 Thank you to NeoLotto Deutschland GmbH ([GoLOTTO](https://www.golotto.de/)) for sponsoring this development. 🙏
 
-Thanks to Neolotto / [Golotto](https://www.golotto.de/) for sponsoring this development.
-
 <div style="display:inline-block;background-color:#fd0;border-radius:16px;padding:8px;justify-content:center;flex-direction:column">
-<a href="https://opencollective.com/react-native-image-crop-picker/sponsor/0/website" target="_blank"><img src="https://www.golotto.de/assets/images/3.0/logo-black.png?pv=37339	"></a>
+<a href="https://www.golotto.de/" target="_blank"><img src="https://www.golotto.de/assets/images/3.0/logo-black.png"></a>
 </div>
 
 ## Contributors ✨
