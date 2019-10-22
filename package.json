@@ -1,7 +1,7 @@
 {
   "name": "react-native-adyen-components",
   "version": "0.0.1",
-  "description": "Adyen payments support for iOS and Android",
+  "description": "Adyen checkout components support for iOS and Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
