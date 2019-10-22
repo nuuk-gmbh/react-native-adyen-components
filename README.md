@@ -65,7 +65,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bonesyblue"><img src="https://avatars0.githubusercontent.com/u/7486722?v=4" width="100px;" alt="Jonathan Bones"/><br /><sub><b>Jonathan Bones</b></sub></a><br /><a href="https://github.com/nuuk-gmbh/react-native-adyen-components/commits?author=bonesyblue" title="Documentation">📖</a> <a href="https://github.com/nuuk-gmbh/react-native-adyen-components/commits?author=bonesyblue" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/bonesyblue"><img src="https://avatars0.githubusercontent.com/u/7486722?v=4" width="100px;" alt="Jonathan Bones"/><br /><sub><b>Jonathan Bones</b></sub></a><br /><a href="https://github.com/nuuk-gmbh/react-native-adyen-components/commits?author=bonesyblue" title="Documentation">📖</a> <a href="https://github.com/nuuk-gmbh/react-native-adyen-components/commits?author=bonesyblue" title="Code">💻</a> <a href="#ideas-bonesyblue" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
