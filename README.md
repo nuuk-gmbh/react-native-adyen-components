@@ -1,4 +1,5 @@
 # react-native-adyen-components
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ## Getting started
 
@@ -45,3 +46,19 @@ AdyenComponents;
 ## Sponsoring
 
 Thanks to Neolotto / [Golotto](https://www.golotto.de/) for sponsoring this development.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/bonesyblue"><img src="https://avatars0.githubusercontent.com/u/7486722?v=4" width="100px;" alt="Jonathan Bones"/><br /><sub><b>Jonathan Bones</b></sub></a><br /><a href="https://github.com/nuuk-gmbh/react-native-adyen-components/commits?author=bonesyblue" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
